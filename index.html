@@ -1,1 +1,116 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+<title>Andrew Wyman's Personal Portfolio</title>
+<style>
+  a{
+  text-decoration: none;
+  }
+  #contact-buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+  }
+  #contact button{
+  border-radius: 50%;
+  font-size: 16px;
+  border: solid;
+  height: 80px;
+  }
+  #contact{
+  background-color: rgb(183,255,208);
+  text-align: center;
+  height: 120vh;
+  padding-top: 25vh;
+  }
+  html{
+  font-family: 'Open Sans', sans-serif;
+  }
+  li{
+  list-style: none;
+  }
+  nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  }
+  #navbar{
+  width: 100%;
+  position: fixed;
+  background-color: rgb(131, 255,173);
+  }
+  #projects{
+  background-color: #ffffff;
+  text-align: center;
+  }
+  #projects a{
+  border: 2px solid black;
+  overflow: hidden;
+  display: inline-block;
+  height: 220px;
+  width: 280px;
+  margin: 40px 100px;
+  }
+  #projects img{
+  height: 160px;
+  width: 240px;
+  }
+  #welcome-section{
+  background-color: rgb(131,255,173);
+  text-align: center;
+  height: 100vh;
+  padding-top: 45vh;
+  }
+</style>
+</head>
+<body>
+  <nav id="navbar">
+    <ul>
+      <li><a href="#welcome-section">About</a></li>
+      <li><a href="#projects">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <section id="welcome-section">
+    <h1>Hi, I'm Andrew.</h1>
+    <p>a web developer</p>
+  </section>
+  <section id="projects">
+    <h1>These are some of my projects...</h1>
+    <a href="https://codepen.io/seawolf631/pen/YdzaBE">
+      <img src="/Users/user/Desktop/WebDesignProjects/PersonalPortfolio/PomodoroTimer.png">
+      <p>Pomodoro Clock</p>
+    </a>
+    <a href="https://codepen.io/seawolf631/pen/JwjvdJ">
+      <img src="/Users/user/Desktop/WebDesignProjects/PersonalPortfolio/RandomQuoteMachine.png">
+      <p>Random Quote Machine</p>
+    </a>
+    <a href="https://codepen.io/seawolf631/pen/yxeNxY">
+      <img src="/Users/user/Desktop/WebDesignProjects/PersonalPortfolio/TributePage.png">
+      <p>Tribute Page</p>
+    </a>
+    <a href="https://codepen.io/seawolf631/pen/NOdbXL">
+      <img src="/Users/user/Desktop/WebDesignProjects/PersonalPortfolio/ProductLandingPage.png">
+      <p>Product Landing Page</p>
+    </a>
+    <a href="https://codepen.io/seawolf631/pen/RYVBXo">
+      <img src="/Users/user/Desktop/WebDesignProjects/PersonalPortfolio/SurveyPage.png">
+      <p>Survey Form</p>
+    </a>
+    <a href="https://codepen.io/seawolf631/pen/EdQJvG">
+      <img src="/Users/user/Desktop/WebDesignProjects/PersonalPortfolio/TechLandingPage.png">
+      <p>Technical Documentation Page</p>
+    </a>
+  </section>
+  <section id="contact">
+    <h1>Let's work together...</h1>
+    <p>How do you take your coffee</p>
+    <div id="contact-buttons">
+      <button>Github</button>
+      <button>E-Mail</button>
+      <button>Phone #</button>
+    </div>
+  </section>
+</body>
+</html>
