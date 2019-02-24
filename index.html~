@@ -57,7 +57,7 @@
   background-color: #ffffff;
   text-align: center;
   }
-  #projects a{
+  #projects .a-box{
   color: black;
   border-radius: 25px;
   border: 2px solid black;
@@ -79,6 +79,9 @@
   height: 100vh;
   padding-top: 45vh;
   }
+  .written-projects a{
+  color: #f4b642;
+  }
 </style>
 </head>
 <body>
@@ -94,28 +97,29 @@
     <p>a web developer</p>
   </section>
   <section id="projects">
-    <h1>These are some of my projects...</h1>
-    <a href="https://codepen.io/seawolf631/full/YdzaBE">
+    <h1>These are some of my projects...</h1><br>
+    <ul><li class="written-projects">1.Wrote a Node.js script called <a href="https://github.com/seawolf631/Economic-Indicators">Economic-Indicators</a>, that provides some of my favorite market/economic metrics(ex: 2 Year & 10 Year Treasury Yield, 10-2 Year Treasury Yield Spread, Warren Buffet Market Indicator)</li></ul>
+    <a href="https://codepen.io/seawolf631/full/YdzaBE" class="a-box">
       <img src="PomodoroTimer.png">
       <p>Pomodoro Clock(React)</p>
     </a>
-    <a href="https://codepen.io/seawolf631/full/JwjvdJ">
+    <a href="https://codepen.io/seawolf631/full/JwjvdJ" class="a-box">
       <img src="RandomQuoteMachine.png">
       <p>Random Quote Machine(React)</p>
     </a>
-    <a href="https://codepen.io/seawolf631/full/yxeNxY">
+    <a href="https://codepen.io/seawolf631/full/yxeNxY" class="a-box">
       <img src="TributePage.png">
       <p>Tribute Page</p>
     </a>
-    <a href="https://seawolf631.github.io/productLandingPage/">
+    <a href="https://seawolf631.github.io/productLandingPage/" class="a-box">
       <img src="ProductLandingPage.png">
       <p>Product Landing Page</p>
     </a>
-    <a href="https://codepen.io/seawolf631/full/RYVBXo">
+    <a href="https://codepen.io/seawolf631/full/RYVBXo" class="a-box">
       <img src="SurveyPage.png">
       <p>Survey Form</p>
     </a>
-    <a href="https://seawolf631.github.io/techDocPage/">
+    <a href="https://seawolf631.github.io/techDocPage/" class="a-box">
       <img src="TechLandingPage.png">
       <p>Technical Documentation Page</p>
     </a>
